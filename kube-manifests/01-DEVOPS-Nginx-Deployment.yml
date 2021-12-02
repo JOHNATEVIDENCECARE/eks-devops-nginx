@@ -15,7 +15,7 @@ spec:
         app: eks-devops
     spec:
       containers:
-        - name: eks-devops
+        - name: ec-analytics
           image: CONTAINER_IMAGE
           ports:
             - containerPort: 80
